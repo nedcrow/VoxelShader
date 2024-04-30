@@ -7,8 +7,8 @@ Shader "Custom/VoxelShader"
     {
         _MainTex("Texture", 2D) = "white" {}
         _Color("Main Color", Color) = (1,1,1,1)
-        _PixelSize("Pixel Size", Float) = 0.1
-        _CubeSize("Cube Size", Float) = 1.0
+        _PixelSize("Pixel Size", Float) = 0.04
+        _CubeSize("Cube Size", Float) = 0.04
         _IsUnlit("bIsUnlit", Float) = 1.0
     }
         SubShader
